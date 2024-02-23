@@ -1,0 +1,97 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type='text'] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+p {
+  margin-top: 20px;
+}
+
+.error {
+  color: red;
+}
+
+
+/* Styles for the select dropdown */
+select {
+  width: 103%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  font-size: 16px; /* Adjust the font size as needed */
+  appearance: none; /* Remove default arrow icon */
+}
+
+/* Styles for the dropdown arrow icon */
+select::-ms-expand {
+  display: none; /* Remove the arrow icon in IE */
+}
+
+/* Styles for the dropdown options */
+select option {
+  font-size: 16px; /* Adjust the font size as needed */
+}
+
+/* Styles for the button */
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Styles for error message */
+.error {
+  color: red;
+}
+
+/* Styles for the translation text */
+.translation {
+  font-weight: bold;
+}
